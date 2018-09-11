@@ -1,0 +1,104 @@
+audio{
+	width: 522px;
+    height: 81px;
+	padding: 100px;
+	border-radius: 5%;
+	background-color: green;
+	margin-top: 100px;
+}
+video{
+
+
+	width: 600px;
+	height: 200px;
+	padding: 100px;
+	border-radius: 5%;
+	background-color: green;
+	float: left 700px;
+	margin:-190px 899px;
+}
+
+
+
+#menu{
+	padding: 0;
+	list-style-type: none;
+	width: 960px;
+	min-height: 38px;
+	background: #4E4E4E;
+	border-bottom: 5px solid orange;
+	margin: 0 auto;
+
+}
+
+#menu li{
+	float: left;
+	border-right: 1px solid #605B5B;
+	border-left: 1px solid #2B2A2A;
+	position: relative;
+
+	
+}
+#menu li:last-child{
+	border-right: none;
+}
+#menu li:first-child{
+	border-left: none;	
+}
+#menu li a{
+	color: #fff;
+	text-decoration:none;
+	background:#4E4E4E;
+	padding:10px 20px;
+	display: block;
+	transition: 1s;
+
+}
+#menu li a:hover{
+	background: orange;
+
+}
+#menu li ul{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	left: 3333333333px;
+}
+#menu li ul li{
+	float:none;
+	border-left: none;
+	border-right: none;
+	border-top-width:1px solid #605B5B;
+	border-bottom: 1px solid #2B2A2A;
+	width:100px;
+	position: relative;
+}
+#menu li:hover ul{
+	left: 0;
+}
+
+#menu li ul li ul{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	top: -3333333333px;
+
+	}
+
+
+
+#menu li ul li:hover ul{
+	top: 0;left: 100px;
+}
+
+
+#menu li ul li ul li ul{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	right: -3333333333px;
+	}
+
+#menu li ul li ul li:hover ul{
+	top: 0;left: 100px;
+}
